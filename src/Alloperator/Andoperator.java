@@ -25,24 +25,34 @@ public class Andoperator
         //Statement 3---> False* false---> else value will print
 
         age = 80;
-        city = "Newdelhi";
+        city = "delhi";
         if (age < 60 & city == "Pune") {
             System.out.println("He is and old man from delhi");}
         else {System.out.println("he is old man from outside delhi");}
 
-        //Statement 4---> True*True*True --> Will show if value
-        int rollnumber = 2;
-        String div = "first division";
-        int percentage = 75;
-        if (rollnumber > 1 & div == "first division" & percentage > 70) {
-            System.out.println("He is good student");
-        } else {System.out.println("he is not good in study");}
 
-        // Statement 5---> False*false*false ---> else value will print
+        // Statement 4---> False*false*false ---> else value will print
 
-        rollnumber = 3;
-        div = "second division";
-        percentage = 56;
-        if (rollnumber > 4 & div == "Third division" & percentage < 50) {
-            System.out.println("He got second division" + percentage + rollnumber);}
-          else {System.out.println("he got third dvision");}}}
+         int rollnumber = 3;
+         String div = "second division";
+         int percentage = 56;
+        if (rollnumber > 4 & div == "Third division" & percentage < 50)
+        {System.out.println("He got second division" + percentage + rollnumber);}
+        else {System.out.println("he got third dvision");}
+
+
+
+int Test=1;
+int rum=2;
+String name="radhey";
+
+if (Test>=1 && name=="radhey")
+{System.out.println("He is above"+Test+name);}
+else{
+    System.out.println("heis not above2 students");}
+
+if (Test>2 && name=="shyam"){
+    System.out.println("heis a good boy");}
+else {
+    System.out.println("he is not good student");
+}}}
