@@ -1,6 +1,6 @@
 package Alloperator;
 
-import com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl;
+
 
 public class NotOperator {
     public static void main(String[] args) {
